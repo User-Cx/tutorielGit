@@ -1,4 +1,4 @@
-package tuto_git;
+
 
 import java.awt.Frame;
 
@@ -11,8 +11,8 @@ public class Application extends Frame {
 	public Application() {
 		super();
 		
-		Modèle modl = new Modèle();
-		Contrôleur ctrl = new Contrôleur(modl); 
+		ModÃ¨le modl = new ModÃ¨le();
+		Controleur ctrl = new Controleur(modl); 
 		Vue vue = new Vue();
 		modl.addObserver(vue);
 		vue.addActionListener(ctrl);

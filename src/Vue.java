@@ -1,5 +1,3 @@
-package tuto_git;
-
 import java.awt.Button;
 import java.awt.Dimension;
 import java.util.Observable;
